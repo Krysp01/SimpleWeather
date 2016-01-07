@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SimpleWeather</string>
+    <string name="change_city">Change city</string>
+
+    <string name="open_weather_maps_app_id">ed90bbda36cb32e0d887d5badce6e094</string>
+
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+    <string name="weather_showers">&#xf01a;</string>
+    <string name="weather_day_showers">&#xf009;</string>
+    <string name="weather_day_few_clouds">&#xf07d;</string>
+    <string name="weather_day_overcast">&#xf002;</string>
+    <string name="weather_night_showers">&#xf037;</string>
+    <string name="weather_night_few_clouds">&#xf07e;</string>
+    <string name="weather_night_overcast">&#xf086;</string>
+
+    <string name="place_not_found">Sorry, no weather data found.</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

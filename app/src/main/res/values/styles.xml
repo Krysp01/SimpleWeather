@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="CustomAppTheme" parent="Theme.AppCompat">
+        <item name="android:actionBarStyle">@style/MyActionBarTheme</item>
+        <item name="actionBarStyle">@style/MyActionBarTheme</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        </style>
+    
+    <style name="MyActionBarTheme" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="background">@android:color/transparent</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="CustomAppTheme.NoActionBarTitle" parent="CustomAppTheme">
+        <item name="android:actionBarStyle">@style/MyActionBarTheme.NoTitle</item>
+        <item name="actionBarStyle">@style/MyActionBarTheme.NoTitle</item>
+    </style>
+
+    <style name="MyActionBarTheme.NoTitle" parent="MyActionBarTheme">
+        <item name="android:displayOptions">useLogo</item>
+        <item name="displayOptions">useLogo</item>
+    </style>
+
+    <style name="CustomAppTheme.NoActionBarTitle.Day" parent="CustomAppTheme.NoActionBarTitle">
+        <item name="android:background">@color/background_day</item>
+        <item name="background">@color/background_day</item>
+    </style>
+
+    <style name="CustomAppTheme.NoActionBarTitle.Dusk">
+        <item name="android:background">@color/background_dusk</item>
+        <item name="background">@color/background_dusk</item>
+    </style>
+
+    <style name="CustomAppTheme.NoActionBarTitle.Night">
+        <item name="android:background">@color/background_night</item>
+        <item name="background">@color/background_night</item>
+    </style>
+
+</resources>

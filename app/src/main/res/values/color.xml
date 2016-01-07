@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFF</color>
+    <color name="highlight_color">#FF6e3687</color>
+    <color name="background_day">#FF0099CC</color>
+    <color name="background_dusk">#FFF18C36</color>
+    <color name="background_night">#FF00014D</color>
+</resources>
